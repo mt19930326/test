@@ -123,6 +123,46 @@ robot_trans/fast:
 	$(MAKE) -f CMakeFiles/robot_trans.dir/build.make CMakeFiles/robot_trans.dir/build
 .PHONY : robot_trans/fast
 
+#=============================================================================
+# Target rules for targets named chapter3_5
+
+# Build rule for target.
+chapter3_5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 chapter3_5
+.PHONY : chapter3_5
+
+# fast build rule for target.
+chapter3_5/fast:
+	$(MAKE) -f CMakeFiles/chapter3_5.dir/build.make CMakeFiles/chapter3_5.dir/build
+.PHONY : chapter3_5/fast
+
+chapter3_5.o: chapter3_5.cpp.o
+
+.PHONY : chapter3_5.o
+
+# target to build an object file
+chapter3_5.cpp.o:
+	$(MAKE) -f CMakeFiles/chapter3_5.dir/build.make CMakeFiles/chapter3_5.dir/chapter3_5.cpp.o
+.PHONY : chapter3_5.cpp.o
+
+chapter3_5.i: chapter3_5.cpp.i
+
+.PHONY : chapter3_5.i
+
+# target to preprocess a source file
+chapter3_5.cpp.i:
+	$(MAKE) -f CMakeFiles/chapter3_5.dir/build.make CMakeFiles/chapter3_5.dir/chapter3_5.cpp.i
+.PHONY : chapter3_5.cpp.i
+
+chapter3_5.s: chapter3_5.cpp.s
+
+.PHONY : chapter3_5.s
+
+# target to generate assembly for a file
+chapter3_5.cpp.s:
+	$(MAKE) -f CMakeFiles/chapter3_5.dir/build.make CMakeFiles/chapter3_5.dir/chapter3_5.cpp.s
+.PHONY : chapter3_5.cpp.s
+
 robot_trans.o: robot_trans.cpp.o
 
 .PHONY : robot_trans.o
@@ -159,6 +199,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... robot_trans"
 	@echo "... edit_cache"
+	@echo "... chapter3_5"
+	@echo "... chapter3_5.o"
+	@echo "... chapter3_5.i"
+	@echo "... chapter3_5.s"
 	@echo "... robot_trans.o"
 	@echo "... robot_trans.i"
 	@echo "... robot_trans.s"

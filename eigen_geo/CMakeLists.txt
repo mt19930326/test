@@ -5,3 +5,4 @@ project( geometry )
 include_directories( "/usr/include/eigen3" )
 
 add_executable( robot_trans robot_trans.cpp )
+add_executable( chapter3_5 chapter3_5.cpp )
